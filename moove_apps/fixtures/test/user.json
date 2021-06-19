@@ -1,0 +1,23 @@
+[
+    {
+        "fields": {
+            "is_admin": 1,
+            "is_active": 1,
+            "password": "42f6b16752ddda82563356e3ba64fcd7",
+            "email": "test-user@moove.africa"
+        },
+        "model": "user.user",
+        "pk": 1
+    },
+    {
+        "fields": {
+            "is_admin": 1,
+            "is_active": 1,
+            "password": "4297f44b13955235245b2497399d7a93",
+            "email": "vc@@moove.africa"
+        },
+        "model": "user.user",
+        "pk": 2
+    }
+]
+    

@@ -1,0 +1,29 @@
+[
+    {
+        "fields": {
+            "email": "vc@@moove.africa",
+            "name": "kennedy",
+            "drn": "4566652ddda82563356e3ba64fcd7"
+        },
+        "model": "driver.driver",
+        "pk": 1
+    },
+    {
+        "fields": {
+            "email": "ken@@moove.africa",
+            "name": "ken",
+            "drn": "42f6b167525663356e3ba64fcd7"
+        },
+        "model": "driver.driver",
+        "pk": 2
+    },
+    {
+        "fields": {
+            "email": "ekon@@moove.africa",
+            "name": "okon",
+            "drn": "42f6b16752ddda825633564"
+        },
+        "model": "driver.driver",
+        "pk": 3
+    }
+]

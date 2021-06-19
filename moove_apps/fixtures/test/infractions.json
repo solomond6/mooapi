@@ -1,0 +1,22 @@
+[
+    {
+        "fields": {
+            "level": "one",
+            "name": "new infraction",
+            "points": 1,
+            "description": "new infraction"
+        },
+        "model": "driver.infraction",
+        "pk": 1
+    },
+    {
+        "fields": {
+            "level": "two",
+            "name": "two infraction",
+            "points": 1,
+            "description": "new infraction"
+        },
+        "model": "driver.infraction",
+        "pk": 2
+    }
+]

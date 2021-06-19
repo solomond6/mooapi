@@ -1,0 +1,30 @@
+[
+    {
+        "fields": {
+            "moove_id": "newmoove123",
+            "registration_no": "AQGHVFFFj",
+            "vin": "42f6b16752ddda82563356e3ba64fcd7"
+        },
+        "model": "driver.vehicle",
+        "pk": 1
+    },
+    {
+        "fields": {
+            "moove_id": "MNnewmoove123",
+            "registration_no": "AWSAQGHVFFFj",
+            "vin": "42f6b16752ddda82563356e3ba64fcd7"
+        },
+        "model": "driver.vehicle",
+        "pk": 2
+    },
+    {
+        "fields": {
+            "moove_id": "AGNESGGG",
+            "registration_no": "AGLN23444",
+            "vin": "42f6b16752ddda82563356e3ba64fcd7"
+        },
+        "model": "driver.vehicle",
+        "pk": 2
+    }
+]
+    

@@ -1,0 +1,23 @@
+version: '2.4'
+services:
+
+    unified-backend:  &unified-backend
+        build: ./moove-unified-api
+        image: unified-backend
+        cpu_shares: 2048
+        volumes:
+            - ./moove-unified-api:/usr/src/app/
+        command: bash -c "pip install -r requirements.txt && bash ./docker/run.sh"
+        environment: &unified-backend-env
+            - ENV=Prod
+            - DATABASE_URL=<DATABASE_URL>
+        expose:
+            - "8000"
+    nginx:
+        image: nginx:latest
+        container_name: nginx02
+        ports:
+            - "80:80"
+        volumes:
+            - ./moove-unified-api:/usr/src/app/
+            - ./moove-unified-api/nginx:/etc/nginx/conf.d

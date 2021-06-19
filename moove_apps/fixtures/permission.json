@@ -1,0 +1,44 @@
+[
+    {
+        "fields": {
+            "name": "manager"
+        },
+        "model": "user.permission",
+        "pk": 1
+    },
+    {
+        "fields": {
+            "name": "driver_team_captain"
+        },
+        "model": "user.permission",
+        "pk": 2
+    },
+    {
+        "fields": {
+            "name": "view_dashboard"
+        },
+        "model": "user.permission",
+        "pk": 3
+    },
+    {
+        "fields": {
+            "name": "view_drivers"
+        },
+        "model": "user.permission",
+        "pk": 4
+    },
+    {
+        "fields": {
+            "name": "view_map"
+        },
+        "model": "user.permission",
+        "pk": 5
+    },
+    {
+        "fields": {
+            "name": "view_vehicles"
+        },
+        "model": "user.permission",
+        "pk": 6
+    }
+]
